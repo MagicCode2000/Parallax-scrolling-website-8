@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.Home{
+    position: relative;
+    min-height: 100vh;
+    background: linear-gradient(to bottom, #030043, #00166b);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 24px;
+    z-index: 99;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 35px 80px;
+}
+header nav a{
+    margin-left: 80px;
+    color: white;
+    font-size: 26px;
+    transition: .3s;
+}
+header nav .active,
+header nav a:hover{
+    color: #43e0f7;
+}
+.Home h1{
+    position: absolute;
+    color: white;
+    font-size: 100px;
+    z-index: 99;
+}
+.Home img{
+    position: absolute;
+    width: 100%;
+    pointer-events: none;
+}
+.layer{
+    height: 100%;
+    bottom: 0;
+}
+.light{
+    opacity: 0;
+}
+.mountains{
+    bottom: 0;
+}
+.stars{
+    top: 0;
+}
+.About{
+    min-height: 100vh;
+    background-color: #06001b;
+    color: white;
+    padding: 0 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 80px;
+}
+.About h1{
+    font-size: 50px;
+}
+.About p{
+    font-size: 17px;
+}
